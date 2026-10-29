@@ -10,8 +10,7 @@ const __dirname = path.dirname(__filename);
 
 // https://vite.dev/config/
 export default defineConfig({
-  // Relative paths support GitHub Pages project URLs and custom domains.
-  base: "./",
+  base: "/Game pengurangan memancing/",
   plugins: [react(), tailwindcss(), viteSingleFile()],
   resolve: {
     alias: {
